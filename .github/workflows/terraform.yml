@@ -49,5 +49,5 @@ jobs:
 
       - name: Terraform Plan Status
         if: steps.plan.outcome == 'failure'
-        run: exit 
+        run: exit 1
 
